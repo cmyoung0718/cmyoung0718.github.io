@@ -74,17 +74,17 @@
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>Corey Young</h1>
-                        <h3>Data Scientist</h3>
+                        <h3>Data Scientist | Musician</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                <a href="https://twitter.com/cmyoung0718" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                             </li>
                             <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                <a href="https://github.com/cmyoung0718" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                             </li>
                             <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                                <a href="https://www.linkedin.com/in/corey-young-0718" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                             </li>
                         </ul>
                     </div>
@@ -107,11 +107,17 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                    <h2 class="section-heading">Job Recommendation Engine:<br></h2>
+                    <p class="lead">The goal of this project was to build a job recommendation engine.  With vectorized
+                        skills as the features, the job titles were first clustered using hierarchical clustering.
+                        These clusters loosely represent industries.  When a new user's resume comes in, they are assigned
+                        a cluster (multinomial logistic regression) and recommended job titles from each cluster using
+                        cosine similarity, as well as five skills the new user lacks that they need to obtain to get
+                        that position.
+                        <a target="_blank" href="http://join.deathtothestockphoto.com/">Placeholder link</a></p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
+                    <img class="img-responsive" src="img/clustered_titles.png" alt="">
                 </div>
             </div>
 
@@ -129,11 +135,17 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                    <h2 class="section-heading">Crime Level Prediction:<br></h2>
+                    <p class="lead">Crime level of an area in Seattle, WA was predicted using a K-nearest neighbors (KNN)
+                        model.  Data was obtained from data.seattle.gov.  Longitude and latitude were used as the only
+                        two features.  Due to the spatial nature of the features, KNN was an obvious choice for the
+                        classification model.  The code was added to a Django framework and predictions are available
+                        via post requests containing a longitude and latitude within Seattle.
+                        <a target="_blank" href="https://github.com/cmyoung0718/dsi-sea-project07/blob/master/starter-code/Project%207.ipynb">
+                            Click here to view the code.</a></p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
+                    <img class="img-responsive" src="img/crime_level.png" alt="">
                 </div>
             </div>
 
@@ -151,11 +163,15 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+                    <h2 class="section-heading">Salary Predictions:<br></h2>
+                    <p class="lead">Utilized a logistic regression model to predict whether how well a data science
+                        position pays.  The features included location, requirements, and keywords within the job title.
+                        The data used was scraped from indeed.com using the BeautifulSoup library in Python and required
+                        extensive cleaning.
+                        <a target="_blank" href="https://github.com/cmyoung0718/dsi-sea-project04/blob/master/starter-code/starter_code.ipynb">Click here to view the code.</a></p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+                    <img class="img-responsive" src="img/job_title_factors.png" alt="">
                 </div>
             </div>
 
@@ -177,13 +193,13 @@
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
                         <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            <a href="https://twitter.com/cmyoung0718" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                         </li>
                         <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            <a href="https://github.com/cmyoung0718" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                         </li>
                         <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            <a href="https://www.linkedin.com/in/corey-young-0718" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                         </li>
                     </ul>
                 </div>
@@ -210,14 +226,14 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#services">Services</a>
+                            <a href="#services">Portfolio</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; Corey Young 2016. All Rights Reserved</p>
                 </div>
             </div>
         </div>
